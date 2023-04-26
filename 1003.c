@@ -2,17 +2,17 @@
 #include <stdlib.h>
 
 
+
 int main(){
     
-    int A;
-    int B;
-    int X;
+    int A, B, SOMA;
 
     scanf("%d", &A);
     scanf("%d", &B);
-    X = A + B;
 
-    printf("X = %d", X);
+    SOMA = A + B;
+
+    printf("SOMA = %d\n", SOMA);
 
     return 0;
 }

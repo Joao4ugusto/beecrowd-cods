@@ -4,15 +4,13 @@
 
 int main(){
     
-    int A;
-    int B;
-    int X;
-
+    int A, B, PROD;
     scanf("%d", &A);
     scanf("%d", &B);
-    X = A + B;
 
-    printf("X = %d", X);
+    PROD = A * B;
+
+    printf("PROD = %d", PROD);
 
     return 0;
 }
